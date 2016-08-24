@@ -1,5 +1,5 @@
 # multipleIN
-***Some functions I made to use the `in` operator in Python between two lists or two dictionaries.
+### Some functions I made to use the `in` operator in Python between two lists or two dictionaries.
 
 The function `inD(x,y,mode='single')` will take two dictionaries, `x` and `y`, and check to see if every key in `x` also appears as a key in `y`. If every key from `x` *does* appear as a key in `y`, then `inD(x,y,mode='single')` will output `True`. If not, then `inD(x,y,mode='single')` will output `False`. If the argument `mode` is set to `'multiple'`, then `inD(x,y,mode='multiple')` will output a dictionary with the same keys as `x` and either `True` or `False` as the value for each key in `x` depending on whether or not that key also appeared as a key in `y`.
 
