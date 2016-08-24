@@ -1,5 +1,5 @@
 # Functions to use `in` between two dictionaries or two lists/tuples in Python
-### Some functions I made to use the `in` operator in Python between two lists or two dictionaries.
+### Some functions I made to use the `in` operator in Python between two lists/tuples or two dictionaries.
 
 This repository has four functions I created:
 * `inD(x,y,mode='single')`
